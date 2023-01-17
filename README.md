@@ -1,4 +1,4 @@
-### Hi there 👋Srushti here
+### Hi there 👋It's Srushti
 
 
 - 🔭 I’m currently working on my problem solving and coding skills.
