@@ -1,9 +1,6 @@
 ### Hi there 👋It's Srushti
 
 
-![image](https://github.com/srushti-03/srushti-03/assets/109024292/cc323a62-195f-4c3b-88cd-2be148558aeb)
-
-
 
 - 🔭 I’m currently working on my problem solving and coding skills.
 - 🌱 I’m currently learning web developement.
