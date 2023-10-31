@@ -9,7 +9,7 @@
 - 🎓 Education: Bachelor of Computer Science and Engineering 
 - ⚡ Fun fact: Work in progress!
 
-- [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=srushti-03)](https://git.io/streak-stats)
+
 
 
 
