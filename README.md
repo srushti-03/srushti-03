@@ -113,7 +113,6 @@
 - **40% reduction** in delivery costs
 - **25% optimized** delivery distances
 
-[View Project →](https://github.com/srushti-03)
 
 </td>
 <td width="50%">
@@ -127,8 +126,6 @@
 - 27 emotion categories classification
 - Achieved **0.68 F1-score**
 - Interactive mood visualization dashboard
-
-[View Project →](https://github.com/srushti-03)
 
 </td>
 </tr>
@@ -144,7 +141,6 @@
 - Temporal graph evolution tracking
 - Personalized recommendations via network centrality
 
-[View Project →](https://github.com/srushti-03)
 
 </td>
 <td width="50%">
@@ -159,7 +155,7 @@
 - **92% accuracy** on 10,000+ records
 - RMSE: 0.12 vs 0.15 baseline
 
-[View Project →](https://github.com/srushti-03)
+
 
 </td>
 </tr>
@@ -179,33 +175,6 @@
 
 ---
 
-## 🎓 Education
-
-<table>
-<tr>
-<td width="50%">
-
-### 🎓 North Carolina State University
-**Master of Science in Computer Science**  
-📅 Expected May 2027  
-📊 CGPA: **4.00/4.00**  
-📍 Raleigh, NC, USA
-
-</td>
-<td width="50%">
-
-### 🎓 Ahmedabad University
-**B.Tech in Computer Science & Engineering**  
-Minor: Business Analytics  
-📅 May 2025  
-📊 CGPA: **3.57/4.00**  
-📍 Ahmedabad, Gujarat, India
-
-</td>
-</tr>
-</table>
-
----
 
 ## 🏆 Certifications
 
