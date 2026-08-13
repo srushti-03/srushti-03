@@ -5,7 +5,8 @@
 ```ascii
 ╔═══════════════════════════════════════════════════════════════════════╗
 ║  💻 Software Development Intern | 🤖 AI/ML Enthusiast                ║
-║  Building intelligent systems that make a difference                  ║
+║  🏛️ Data Engineering | Building intelligent systems that make a      ║
+║     difference                                                        ║
 ╚═══════════════════════════════════════════════════════════════════════╝
 ```
 
@@ -27,10 +28,10 @@
 
 > *Currently pursuing MS in Computer Science at NC State University*
 
-- 🔭 **Currently Working On:** CRAFT Data Dashboard at Precision Sustainable Agriculture
-- 🌱 **Learning & Exploring:** Advanced ML architectures, full-stack web development, and cloud infrastructure
-- 💡 **Passionate About:** AI/ML, Computer Vision, NLP, and creating impactful software solutions
-- 🎯 **Goal:** Building intelligent systems that solve real-world problems
+- 🔭 **Currently Working On:** Data Engineering at NC Office of the State Auditor + CRAFT Data Dashboard at Precision Sustainable Agriculture
+- 🌱 **Learning & Exploring:** Advanced ML architectures, full-stack web development, cloud infrastructure, and scalable data systems
+- 💡 **Passionate About:** AI/ML, Data Engineering, Computer Vision, NLP, and creating impactful software solutions
+- 🎯 **Goal:** Building intelligent systems that solve real-world problems at scale
 - 📫 **Reach Me:** sthakar2@ncsu.edu | srushtidthakar03112003@gmail.com
 - ⚡ **Fun Fact:** I optimize code like I optimize life - always looking for that extra efficiency! 
 
@@ -39,6 +40,15 @@
 ---
 
 ## 💼 Professional Experience
+
+### 🏛️ Data Engineering Intern @ North Carolina Office of the State Auditor
+`May 2026 - Present | Continuing Fall 2026` | Raleigh, NC
+
+- Architecting **AI-powered PDF-to-Excel pipeline** using Azure Databricks to automate extraction and validation of bank/pcard statement transactions across variable document formats
+- Developing **self-service auditor portal** where auditors upload financial documents and receive validated, structured Excel outputs with minimal engineering support
+- Building **scalable ETL pipelines** with data validation frameworks integrating diverse sources from NC state systems for cross-agency compliance analysis
+- Managing codebase in Azure DevOps with Git version control; designing medallion architecture for data warehousing
+- Tech Stack: Python, Azure Databricks, Apache Spark, Delta Lake, SQL, ETL/ELT, Data Validation
 
 ### 🌾 Software Development Intern @ Precision Sustainable Agriculture
 `Nov 2025 - Present` | Raleigh, NC
@@ -82,6 +92,13 @@
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
 
+### Data Engineering & Cloud
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
+![Databricks](https://img.shields.io/badge/Databricks-EB6E20?style=for-the-badge&logo=databricks&logoColor=white)
+![Apache Spark](https://img.shields.io/badge/Apache%20Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
+
 ### AI/ML & Data Science
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
@@ -90,8 +107,8 @@
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 
-### Cloud & DevOps
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+### DevOps & Tools
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
@@ -145,25 +162,33 @@
 ```python
 class SrushtiThakar:
     def __init__(self):
-        self.role = "Software Engineer & AI/ML Enthusiast"
+        self.role = "Data Engineer & Full-Stack Developer | AI/ML Enthusiast"
         self.location = "Raleigh, NC"
-        self.education = "MS Computer Science @ NC State"
-        self.interests = ["Machine Learning", "Full-Stack Development", 
-                         "Computer Vision", "NLP", "Cloud Computing"]
+        self.education = "MS Computer Science @ NC State (GPA 4.0)"
+        self.interests = ["Data Engineering", "Machine Learning", "Full-Stack Development", 
+                         "Computer Vision", "NLP", "Cloud Computing", "Scalable Systems"]
         
     def current_work(self):
         return {
-            "position": "Software Development Intern",
-            "company": "Precision Sustainable Agriculture",
-            "focus": ["React Development", "Data Visualization", 
-                     "Geospatial Analytics", "Testing & CI/CD"]
+            "primary": {
+                "position": "Data Engineering Intern",
+                "company": "NC Office of the State Auditor",
+                "focus": ["Azure Databricks", "ETL/ELT Pipelines", "Python", 
+                         "Data Validation", "SQL", "Medallion Architecture"]
+            },
+            "concurrent": {
+                "position": "Software Development Intern",
+                "company": "Precision Sustainable Agriculture",
+                "focus": ["React Development", "Data Visualization", 
+                         "Geospatial Analytics", "Testing & CI/CD"]
+            }
         }
     
     def daily_routine(self):
-        return "Code → Learn → Build → Repeat 🔄"
+        return "Design → Build → Test → Optimize → Repeat 🔄"
     
     def life_motto(self):
-        return "Turning caffeine into code since 2020 ☕️💻"
+        return "Turning caffeine into scalable systems since 2020 ☕️💻"
 ```
 
 ---
@@ -172,7 +197,7 @@ class SrushtiThakar:
 
 <div align="center">
 
-I'm always excited to collaborate on interesting projects, discuss tech, or just chat about the latest in AI/ML!
+I'm always excited to collaborate on interesting projects, discuss tech, or just chat about the latest in AI/ML and Data Engineering!
 
 **💌 Email:** [sthakar2@ncsu.edu](mailto:sthakar2@ncsu.edu) | [srushtidthakar03112003@gmail.com](mailto:srushtidthakar03112003@gmail.com)
 
