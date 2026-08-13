@@ -4,14 +4,14 @@
 
 ```ascii
 ╔═══════════════════════════════════════════════════════════════════════╗
-║  💻 Software Development Intern | 🤖 AI/ML Enthusiast                ║
-║  🏛️ Data Engineering | Building intelligent systems that make a      ║
-║     difference                                                        ║
+║  💻 Data Engineer | 🤖 AI/ML Systems Builder                         ║
+║  Building intelligent data systems that solve real-world problems     ║
+║  at scale                                                             ║
 ╚═══════════════════════════════════════════════════════════════════════╝
 ```
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Srushti%20Thakar&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Transforming%20Ideas%20into%20Intelligent%20Solutions&descAlignY=55&descAlign=50" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Srushti%20Thakar&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Transforming%20Ideas%20into%20Intelligent%20Solutions%20at%20Scale&descAlignY=55&descAlign=50" width="100%"/>
 </p>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/srushti-thakar/)
@@ -26,12 +26,12 @@
 
 ## 🚀 About Me
 
-> *Currently pursuing MS in Computer Science at NC State University*
+> *Currently pursuing MS in Computer Science at NC State University | GPA: 4.0*
 
-- 🔭 **Currently Working On:** Data Engineering at NC Office of the State Auditor + CRAFT Data Dashboard at Precision Sustainable Agriculture
-- 🌱 **Learning & Exploring:** Advanced ML architectures, full-stack web development, cloud infrastructure, and scalable data systems
-- 💡 **Passionate About:** AI/ML, Data Engineering, Computer Vision, NLP, and creating impactful software solutions
-- 🎯 **Goal:** Building intelligent systems that solve real-world problems at scale
+- 🔭 **Currently Working On:** AI-Powered Document Intelligence Pipeline + CRAFT Data Dashboard
+- 🌱 **Learning & Exploring:** Production-grade AI/ML systems, document intelligence, data architecture at scale
+- 💡 **Passionate About:** Data Engineering, Document Intelligence, LLMs, NLP, Computer Vision, and building systems that actually impact real-world audit/compliance workflows
+- 🎯 **Goal:** Building intelligent data systems that scale across organizations and solve complex document processing challenges
 - 📫 **Reach Me:** sthakar2@ncsu.edu | srushtidthakar03112003@gmail.com
 - ⚡ **Fun Fact:** I optimize code like I optimize life - always looking for that extra efficiency! 
 
@@ -44,27 +44,53 @@
 ### 🏛️ Data Engineering Intern @ North Carolina Office of the State Auditor
 `May 2026 - Present | Continuing Fall 2026` | Raleigh, NC
 
-- Architecting **AI-powered PDF-to-Excel pipeline** using Azure Databricks to automate extraction and validation of bank/pcard statement transactions across variable document formats
-- Developing **self-service auditor portal** where auditors upload financial documents and receive validated, structured Excel outputs with minimal engineering support
-- Building **scalable ETL pipelines** with data validation frameworks integrating diverse sources from NC state systems for cross-agency compliance analysis
-- Managing codebase in Azure DevOps with Git version control; designing medallion architecture for data warehousing
-- Tech Stack: Python, Azure Databricks, Apache Spark, Delta Lake, SQL, ETL/ELT, Data Validation
+#### **Primary Project: AI-Powered Financial Document Intelligence Pipeline**
+
+- **Architected and deployed production document parsing system** replacing manual financial audit workflows across NC state agencies; engineered **30+ custom parsers** for variable bank/pcard statement formats (Excel, PDF, proprietary bank systems) with format-specific extraction logic
+
+- **Integrated Azure Document Intelligence** (OCR + ML) with custom `ai_parse_document()` and `ai_extract()` methods to handle edge cases; designed **intelligent fallback parser** that automatically routes unparseable documents to human review when specific parsers unavailable—ensuring **zero-loss production processing**
+
+- **Developed transaction validation framework** with business rule checks, confidence scoring, and human-in-the-loop routing; **automated 80%+ of document processing pipeline** while maintaining 100% audit accuracy through comprehensive validation
+
+- **Built self-service auditor portal** enabling end-users to upload financial statements and receive validated, structured Excel outputs with **zero manual engineering support at runtime**; deployed on Azure Databricks with production logging, error handling, and recovery workflows
+
+- **Maintained production codebase** in Azure DevOps with Git version control; documented architecture and parser logic enabling seamless knowledge transfer across analytics team
+
+**Tech Stack**: Python, Azure Document Intelligence, Azure Databricks, Spark, Delta Lake, SQL, Azure DevOps, Git, ETL/ELT
+
+#### **Secondary Project: CACFP Audit Data Platform (Rapid Response Team)**
+
+- Led data engineering pipeline for Child & Adult Care Food Program (CACFP) audit as cross-functional team member; **implemented medallion architecture** (bronze/silver/gold tables) transforming raw audit data into validated, structured datasets
+
+- **Built Genie AI agent** (Databricks natural language interface) trained on SQL queries and benchmarked against ground truth outputs; enabled **auditors to explore CACFP compliance data via natural language queries** without SQL expertise—enabling self-service audit discovery
+
+- Designed and maintained **data quality framework** with comprehensive validation checks, source data traceability, and insight validation ensuring 100% audit compliance
+
+---
 
 ### 🌾 Software Development Intern @ Precision Sustainable Agriculture
 `Nov 2025 - Present` | Raleigh, NC
 
-- Building **CRAFT Data Dashboard** with React & Redux for 100+ field trials
-- Architecting scalable frontend systems with modern JavaScript frameworks
-- Implementing geospatial data visualization with interactive filtering
-- Writing Cypress E2E tests and managing WordPress sites with Git
+- Building **CRAFT Data Dashboard** with React & Redux for 100+ field trials analyzing drone imagery and experimental results across nationwide research sites
+
+- **Architecting scalable frontend systems** with modern JavaScript frameworks; implementing geospatial data visualization with interactive filtering by trial parameters, enrollment trends, ecoregions, and crop types
+
+- Writing **Cypress E2E tests** for cross-browser compatibility; managing WordPress sites with Git for USDA-ARS Digital Agricultural Systems Hub initiative
+
+**Tech Stack**: React, Redux, JavaScript, Material-UI, Cypress, HTML/CSS, WordPress, Git
+
+---
 
 ### 🤖 AI/ML Engineering Intern @ IG Defence
 `May 2024 - Aug 2024` | Ahmedabad, India
 
-- Optimized **YOLOv8** models achieving 80% accuracy across drone monitoring applications
-- Developed Flask backend with RESTful APIs and PostgreSQL integration
-- Built facial recognition attendance system using OpenCV and Python
+- Optimized **YOLOv8 computer vision models** achieving 80% accuracy across drone monitoring applications (safety compliance, coal stockpile analysis, crowd density, vehicle tracking)
+
+- **Developed Flask backend** with RESTful APIs and PostgreSQL integration for scalable AI model deployment; built facial recognition attendance system using OpenCV and Python for automated workforce management
+
 - Deployed cloud-ready AI solutions for real-time drone data processing
+
+**Tech Stack**: YOLOv8, OpenCV, Flask, Python, PostgreSQL, REST APIs
 
 ---
 
@@ -85,6 +111,19 @@
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 
+### Document Intelligence & AI
+![Azure Document Intelligence](https://img.shields.io/badge/Azure_DocIntel-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
+![LLMs](https://img.shields.io/badge/LLMs-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Genie AI](https://img.shields.io/badge/Genie_AI-EB6E20?style=for-the-badge&logo=databricks&logoColor=white)
+
+### Data Engineering & Cloud
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
+![Databricks](https://img.shields.io/badge/Databricks-EB6E20?style=for-the-badge&logo=databricks&logoColor=white)
+![Apache Spark](https://img.shields.io/badge/Apache%20Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
+![Delta Lake](https://img.shields.io/badge/Delta%20Lake-003366?style=for-the-badge&logo=databricks&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
+
 ### Backend & Databases
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
@@ -92,16 +131,11 @@
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
 
-### Data Engineering & Cloud
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
-![Databricks](https://img.shields.io/badge/Databricks-EB6E20?style=for-the-badge&logo=databricks&logoColor=white)
-![Apache Spark](https://img.shields.io/badge/Apache%20Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
-
-### AI/ML & Data Science
+### AI/ML & Computer Vision
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![YOLOv8](https://img.shields.io/badge/YOLOv8-005A9E?style=for-the-badge&logo=yolo&logoColor=white)
+![BERT](https://img.shields.io/badge/BERT-FF6F00?style=for-the-badge&logo=huggingface&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/OpenCV-27338e?style=for-the-badge&logo=OpenCV&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
@@ -110,23 +144,22 @@
 ### DevOps & Tools
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Azure DevOps](https://img.shields.io/badge/Azure%20DevOps-0078D4?style=for-the-badge&logo=azure-devops&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
 ---
-
 
 ## 📚 Research & Publications
 
 **📝 "Community Detection using Fortunato's Performance Measure"**  
 *Submitted to WSDM 2026*
 
-- Designed novel algorithms (fpGreed and fastFp)
+- Designed novel algorithms (fpGreed and fastFp) for community detection in large-scale networks
 - Tested on networks with 1.1M+ nodes
 - Superior speed and quality vs state-of-the-art methods
 - Real-world datasets: YouTube, LiveJournal
 
 ---
-
 
 ## 🏆 Certifications
 
@@ -137,6 +170,158 @@
 [![AWS Cloud Foundations](https://img.shields.io/badge/AWS_Academy-Cloud_Foundations-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)](https://aws.amazon.com/training/)
 
 </div>
+
+---
+
+## 🎯 Featured Projects
+
+### 🏗️ Systems & Data Engineering
+
+#### 🧠 AI-Powered Financial Document Intelligence Pipeline
+**Status**: Production | **Tech**: Python, Azure Document Intelligence, Databricks, Spark, SQL, Azure DevOps
+
+Enterprise-grade document parsing system deployed at NC state government agencies. Engineered 30+ custom parsers for variable financial statement formats with intelligent ML-based fallback logic.
+
+**Impact**: Automated 80%+ of financial document processing; replaced manual audit workflows across multiple state agencies; zero-loss document handling even for edge cases
+
+**Key Innovation**: Fallback parser using Azure Document Intelligence ensures system resilience—new/unknown document formats automatically route to ML extraction instead of failing
+
+---
+
+#### 📊 CACFP Audit Data Platform  
+**Status**: Production | **Tech**: Databricks, SQL, Python, Genie AI, Delta Lake
+
+Medallion architecture (bronze/silver/gold) for Child & Adult Care Food Program compliance auditing. Engineered data quality framework with comprehensive validation checks and source traceability.
+
+**Impact**: Built Genie AI agent enabling auditors to query complex compliance data via natural language; reduced analysis time from hours to minutes
+
+**Key Achievement**: Collaborated cross-functionally on Rapid Response Team; deployed self-service data exploration tool used by auditors daily
+
+---
+
+### 🎨 Full-Stack & Frontend Development
+
+#### 🌾 CRAFT Data Dashboard
+**Status**: Active Development | **Tech**: React, Redux, Material-UI, Cypress, JavaScript, WordPress
+
+Geospatial data visualization platform for 100+ agricultural field trials. Interactive filtering by trial parameters, enrollment trends, ecoregions, and crop types across nationwide research sites.
+
+**Impact**: Enables researchers to analyze drone imagery and experimental results across USDA-ARS Digital Agricultural Systems Hub (digitalagsystemshub.org)
+
+**Features**: Real-time data filtering, interactive maps, Cypress E2E testing for cross-browser compatibility, WordPress site management with Git
+
+---
+
+#### 🔒 WUFScan: Intelligent Document Leak Prevention System
+**Status**: Completed | **Tech**: React, Node.js, Python, Google Gemini API, Face Detection
+
+Full-stack DLP (Data Loss Prevention) application analyzing files before sharing to detect sensitive data patterns (API keys, SSNs, credit cards, PII).
+
+**Impact**: Protects 10+ file types with AI-powered risk scoring; reduces data breach risk through automated detection
+
+**Features**: 
+- Regex + AI-powered sensitive pattern detection
+- Face detection for identity exposure flagging
+- Redaction suggestions, scan history dashboard
+- Email notification generation
+- Browser extension for real-time protection
+
+**Key Innovation**: Combines traditional pattern matching with LLM-based analysis (Google Gemini) for nuanced PII detection
+
+---
+
+#### 🍔 FoodPool: Community-Driven Pooled Food Delivery Platform
+**Status**: Completed | **Tech**: React, Flask, PostgreSQL, WebSocket, Python
+
+Full-stack web application enabling users to create pooled food orders with location-based collaboration and real-time updates.
+
+**Impact**: Reduced delivery costs by 40% through collaborative ordering; achieved 25% delivery distance reduction across active pool sessions
+
+**Features**:
+- Real-time WebSocket communication for live order updates
+- Multi-restaurant support with organizer-led pools
+- Optimized routing algorithm for efficient deliveries
+- End-to-end testing with production-grade reliability
+
+---
+
+### 🤖 Machine Learning & NLP
+
+#### 🧠 AI-Powered Mental Health Journal Analyzer
+**Status**: Completed | **Tech**: Python, BERT, DistilBERT, Streamlit, TensorFlow, Hugging Face
+
+NLP emotion classification system processing 58,000+ journal entries across 27 emotion categories using transformer architectures.
+
+**Impact**: Achieved 0.68 F1-score (improved from baseline 0.52 with data augmentation and hyperparameter tuning)
+
+**Features**:
+- Transformer-based emotion detection (BERT + DistilBERT)
+- Interactive Streamlit dashboard with mood visualization
+- Trend analysis and temporal emotion tracking
+- Cloud-ready deployment pipeline
+
+**Key Insight**: Data augmentation + hyperparameter tuning drove consistent 23% performance improvement over baseline
+
+---
+
+#### 🔍 Efficient Imputation Model for Human-Driven Datasets
+**Status**: Completed | **Tech**: Python, XGBoost, scikit-learn, K-Means, Pandas
+
+ML imputation framework combining K-Means and KNN for datasets with 15–30% missing values.
+
+**Results**: 
+- **5% accuracy improvement** over MICE baseline (92% vs 87%)
+- **Better error rate**: RMSE 0.12 vs 0.15 on 10,000+ record datasets
+- Handles heterogeneous missing data patterns with generalization
+
+**Technical Depth**: Feature engineering, hyperparameter optimization, robust handling of behavioral data edge cases
+
+---
+
+#### 🛡️ CodeBERT: Vulnerability Detection in Source Code
+**Status**: Course Project | **Tech**: Python, CodeBERT, Transformers, Hugging Face, TensorFlow
+
+Neural network-based vulnerability scanner using CodeBERT (code-specific BERT variant) to detect security issues in source code.
+
+**Approach**: Leveraged pre-trained code representations to identify patterns indicative of common vulnerabilities (SQL injection, buffer overflow, etc.)
+
+**Impact**: Demonstrates ML application to cybersecurity domain; showcases understanding of domain-specific language models
+
+---
+
+### 🔬 Research & Algorithms
+
+#### 📝 Community Detection using Fortunato's Performance Measure
+**Status**: Submitted to WSDM 2026 | **Co-Author**: A. Nanavati | **Tech**: Python, Graph Algorithms, NetworkX
+
+Novel algorithm design for community detection in large-scale networks (1.1M+ nodes).
+
+**Algorithms Designed**: 
+- **fpGreed**: Fast-approximate greedy community detection
+- **fastFp**: Enhanced variant with improved accuracy/speed tradeoff
+
+**Results**: Outperformed state-of-the-art methods on real-world datasets (YouTube, LiveJournal)
+
+**Impact**: Demonstrates research-level algorithmic thinking and ability to contribute to peer-reviewed venues
+
+---
+
+### 🎬 Computer Vision & AI
+
+#### 🎥 YOLOv8 Drone Monitoring System
+**Status**: Production | **Tech**: YOLOv8, OpenCV, Python, Flask, PostgreSQL
+
+Computer vision pipeline for autonomous drone monitoring across multiple use cases: safety compliance, coal stockpile analysis, crowd density estimation, vehicle tracking.
+
+**Achievement**: **80% accuracy** across all deployment scenarios
+
+**Features**:
+- Real-time object detection on drone feeds
+- Multi-task inference (detection + tracking)
+- Flask REST APIs for integration
+- PostgreSQL backend for result storage and analysis
+
+**Impact**: Enabled automated monitoring workflows replacing manual surveillance; deployed across multiple industrial sites
 
 ---
 
@@ -162,33 +347,35 @@
 ```python
 class SrushtiThakar:
     def __init__(self):
-        self.role = "Data Engineer & Full-Stack Developer | AI/ML Enthusiast"
+        self.role = "Data Engineer & Full-Stack Developer | AI/ML Systems Builder"
         self.location = "Raleigh, NC"
-        self.education = "MS Computer Science @ NC State (GPA 4.0)"
-        self.interests = ["Data Engineering", "Machine Learning", "Full-Stack Development", 
-                         "Computer Vision", "NLP", "Cloud Computing", "Scalable Systems"]
+        self.education = "MS Computer Science @ NC State (GPA 4.0) | Graduating May 2027"
+        self.interests = ["Document Intelligence", "Data Engineering", "AI/ML Systems", 
+                         "Computer Vision", "NLP", "LLMs", "Cloud Architecture", 
+                         "Scalable Data Pipelines"]
         
     def current_work(self):
         return {
             "primary": {
-                "position": "Data Engineering Intern",
+                "position": "Data Engineering Intern (Continuing Fall 2026)",
                 "company": "NC Office of the State Auditor",
-                "focus": ["Azure Databricks", "ETL/ELT Pipelines", "Python", 
-                         "Data Validation", "SQL", "Medallion Architecture"]
+                "focus": ["Document Intelligence", "30+ Custom Parsers", "Fallback Logic",
+                         "Azure Document Intelligence", "Databricks", "ETL/ELT", 
+                         "Data Validation", "Python", "SQL"]
             },
             "concurrent": {
                 "position": "Software Development Intern",
                 "company": "Precision Sustainable Agriculture",
-                "focus": ["React Development", "Data Visualization", 
-                         "Geospatial Analytics", "Testing & CI/CD"]
+                "focus": ["React/Redux", "Data Visualization", 
+                         "Geospatial Analytics", "E2E Testing", "CI/CD"]
             }
         }
     
     def daily_routine(self):
-        return "Design → Build → Test → Optimize → Repeat 🔄"
+        return "Design → Build → Test → Optimize → Ship → Repeat 🔄"
     
     def life_motto(self):
-        return "Turning caffeine into scalable systems since 2020 ☕️💻"
+        return "Turning caffeine into production-grade systems since 2020 ☕️💻"
 ```
 
 ---
@@ -197,7 +384,7 @@ class SrushtiThakar:
 
 <div align="center">
 
-I'm always excited to collaborate on interesting projects, discuss tech, or just chat about the latest in AI/ML and Data Engineering!
+I'm always excited to collaborate on interesting projects, discuss data engineering & AI systems, or just chat about the latest in document intelligence and LLMs!
 
 **💌 Email:** [sthakar2@ncsu.edu](mailto:sthakar2@ncsu.edu) | [srushtidthakar03112003@gmail.com](mailto:srushtidthakar03112003@gmail.com)
 
@@ -210,6 +397,6 @@ I'm always excited to collaborate on interesting projects, discuss tech, or just
 
 ### ⭐️ From [Srushti Thakar](https://github.com/srushti-03) with 💜
 
-*"Code is like humor. When you have to explain it, it's bad." – Cory House*
+*"The best code is the code that solves real problems. Everything else is just optimization." – Srushti Thakar*
 
 </div>
